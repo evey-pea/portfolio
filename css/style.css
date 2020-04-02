@@ -139,14 +139,16 @@ article img {
     max-height: 100%;
 }
 
-div.blog-graphic iframe, div.project-graphic img {
+div.blog-graphic iframe, div.project-graphic img{
     justify-content: center;
     border-radius: 2em;
-    margin: auto;
+    width:100%
 }
 
-img.full-height {
+img.internal-pic {
     height: 100%;
+    overflow: hidden;
+    border-radius: 2em;
 }
 
 main.page-resume section {
