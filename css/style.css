@@ -142,7 +142,7 @@ article img {
 div.blog-graphic iframe, div.project-graphic img{
     justify-content: center;
     border-radius: 2em;
-    width:100%
+    width:100%;
 }
 
 img.internal-pic {
