@@ -37,7 +37,7 @@ header {
     top: 0;
     margin: 0em;
     width: none;
-    background-color: #f7a8b8;
+    background-color: gold;
 }
 
 header nav {
@@ -76,13 +76,13 @@ header a {
     border-radius: 2em;
     border-style: solid;
     padding: 1em 2em;
-    background-color: #55cdfc;
+    background-color: darkgreen;
     text-decoration: none;
     color: #000000;
 }
 
 main {
-    background-color: #55cdfc;
+    background-color: darkgreen;
 }
 
 main h1 {

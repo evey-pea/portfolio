@@ -20,7 +20,7 @@ div.link-me {
 }
 
 div.nav, div.link-me {
-    background-color: #f7a8b8;
+    background-color: gold;
 }
 div.link-wrapper {
     width: 100%;
@@ -47,7 +47,7 @@ div.link-wrapper > a:hover {
 .heading-center {
     color: #000000;
     grid-area: 2 / 2 / 4 / 7 ;
-    background-color: #55cdfc;
+    background-color: darkgreen;
     padding: 0em 2em;
 }
 
