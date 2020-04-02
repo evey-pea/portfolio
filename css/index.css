@@ -56,21 +56,29 @@ div.link-wrapper > a:hover {
     text-align: right;
 }
 
+main {
+    background-color: #ffffff;
+}
+
+main h1{
+    padding: 0;
+    text-align: left;
+}
 
 @media only screen and (min-width: 900px) {
     main {
-        grid-template-columns: 0.5fr repeat(1fr, 4) 0.5fr;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
     }
     .big-round {
         border-radius: 4em;
     }
     
     div.nav {
-        grid-area: 4 / 2 / 5 / 4 ;
+        grid-area: 4 / 2 / 5 / 5 ;
     }
     
     div.link-me {
-        grid-area: 1 / 5 / 2 / 7;
+        grid-area: 1 / 4 / 2 / 7;
         align-content: center;
     }
     
@@ -97,22 +105,25 @@ div.link-wrapper > a:hover {
     
     div.link-me {
         grid-area: 1 / 2 / 2 / 7;
-        align-content: center;
+        
         
     }
-    
     .heading-center {
         color: #000000;
         grid-area: 2 / 3 span 3;
     }
+
+    h1 {
+        font-size: 4.5em;
+        padding: 0;
+        text-align: left;
+    }
+
     div.link-wrapper > a {
         font-size: 2em
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    main {
-        grid-template-columns: auto;
+    }2
+    main h1 {
+        font-size: 3em;
     }
     
     .big-round {
@@ -132,9 +143,51 @@ div.link-wrapper > a:hover {
     
     .heading-center {
         color: #000000;
-        grid-area: 2 span 1;
+        grid-area: 2 / 1 / 4 /8;
     }
     div.link-wrapper > a {
+        font-size: 1em
+    }
+}
+@media only screen and (max-width: 390px) {
+    .heading-center {
+        color: #000000;
+        grid-area: 2 / 3 span 3;
+    }
+
+    h1 {
+        font-size: 4.5em;
+        padding: 0;
+        text-align: left;
+    }
+
+    div.link-wrapper > a {
         font-size: 2em
+    }
+    main h1 {
+        font-size: 3em;
+    }
+    
+    .big-round {
+        border-radius: 3em;
+    }
+    
+    div.nav {
+        grid-area: 4 span 1 ;
+        
+    }
+    
+    div.link-me {
+        grid-area: 1 span 1;
+        align-content: center;
+        
+    }
+    
+    .heading-center {
+        color: #000000;
+        grid-area: 2 / 1 / 4 /8;
+    }
+    div.link-wrapper > a {
+        font-size: 1em
     }
 }
